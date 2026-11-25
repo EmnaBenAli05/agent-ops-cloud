@@ -1,0 +1,26 @@
+{
+  "ALT-001": {
+    "id": "ALT-001",
+    "service": "api-paiement",
+    "severity": "critique",
+    "title": "Latence p95 de l'API de paiement au-dessus de 2 s",
+    "opened_at": "2026-11-25T09:12:00Z",
+    "source": "supervision Prometheus"
+  },
+  "ALT-002": {
+    "id": "ALT-002",
+    "service": "serveur-logs",
+    "severity": "majeure",
+    "title": "Disque /var/log rempli à 95 %",
+    "opened_at": "2026-11-25T10:40:00Z",
+    "source": "supervision Prometheus"
+  },
+  "ALT-003": {
+    "id": "ALT-003",
+    "service": "portail-client",
+    "severity": "mineure",
+    "title": "Hausse des erreurs HTTP 404 sur le portail client",
+    "opened_at": "2026-11-25T11:05:00Z",
+    "source": "supervision Prometheus"
+  }
+}

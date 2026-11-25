@@ -1,0 +1,24 @@
+{
+  "api-paiement": {
+    "cpu_percent": 38,
+    "memory_percent": 61,
+    "latency_p95_ms": 2450,
+    "error_rate_percent": 7.5,
+    "db_connections_used": 100,
+    "db_connections_max": 100,
+    "uptime_hours": 412
+  },
+  "serveur-logs": {
+    "cpu_percent": 12,
+    "memory_percent": 40,
+    "disk_var_log_percent": 95,
+    "uptime_hours": 960
+  },
+  "portail-client": {
+    "cpu_percent": 22,
+    "memory_percent": 48,
+    "latency_p95_ms": 180,
+    "error_rate_percent": 3.1,
+    "uptime_hours": 72
+  }
+}
